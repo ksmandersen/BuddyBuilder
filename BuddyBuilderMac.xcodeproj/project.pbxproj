@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81CB382F1A24BA8E0004AD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB382E1A24BA8E0004AD62 /* AppDelegate.swift */; };
+		81CB38311A24BA8E0004AD62 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB38301A24BA8E0004AD62 /* GameScene.swift */; };
+		81CB38331A24BA8E0004AD62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81CB38321A24BA8E0004AD62 /* GameScene.sks */; };
+		81CB38351A24BA8E0004AD62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CB38341A24BA8E0004AD62 /* Images.xcassets */; };
+		81CB38381A24BA8E0004AD62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CB38361A24BA8E0004AD62 /* MainMenu.xib */; };
+		81CB38441A24BA8E0004AD62 /* BuddyBuilderMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB38431A24BA8E0004AD62 /* BuddyBuilderMacTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CB383E1A24BA8E0004AD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CB38211A24BA8E0004AD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CB38281A24BA8E0004AD62;
+			remoteInfo = BuddyBuilderMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81CB38291A24BA8E0004AD62 /* BuddyBuilderMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyBuilderMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CB382D1A24BA8E0004AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CB382E1A24BA8E0004AD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81CB38301A24BA8E0004AD62 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		81CB38321A24BA8E0004AD62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		81CB38341A24BA8E0004AD62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81CB38371A24BA8E0004AD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81CB383D1A24BA8E0004AD62 /* BuddyBuilderMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuilderMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CB38421A24BA8E0004AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CB38431A24BA8E0004AD62 /* BuddyBuilderMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyBuilderMacTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CB38261A24BA8E0004AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CB383A1A24BA8E0004AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81CB38201A24BA8E0004AD62 = {
+			isa = PBXGroup;
+			children = (
+				81CB382B1A24BA8E0004AD62 /* BuddyBuilderMac */,
+				81CB38401A24BA8E0004AD62 /* BuddyBuilderMacTests */,
+				81CB382A1A24BA8E0004AD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CB382A1A24BA8E0004AD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CB38291A24BA8E0004AD62 /* BuddyBuilderMac.app */,
+				81CB383D1A24BA8E0004AD62 /* BuddyBuilderMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CB382B1A24BA8E0004AD62 /* BuddyBuilderMac */ = {
+			isa = PBXGroup;
+			children = (
+				81CB382E1A24BA8E0004AD62 /* AppDelegate.swift */,
+				81CB38301A24BA8E0004AD62 /* GameScene.swift */,
+				81CB38321A24BA8E0004AD62 /* GameScene.sks */,
+				81CB38341A24BA8E0004AD62 /* Images.xcassets */,
+				81CB38361A24BA8E0004AD62 /* MainMenu.xib */,
+				81CB382C1A24BA8E0004AD62 /* Supporting Files */,
+			);
+			path = BuddyBuilderMac;
+			sourceTree = "<group>";
+		};
+		81CB382C1A24BA8E0004AD62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CB382D1A24BA8E0004AD62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81CB38401A24BA8E0004AD62 /* BuddyBuilderMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				81CB38431A24BA8E0004AD62 /* BuddyBuilderMacTests.swift */,
+				81CB38411A24BA8E0004AD62 /* Supporting Files */,
+			);
+			path = BuddyBuilderMacTests;
+			sourceTree = "<group>";
+		};
+		81CB38411A24BA8E0004AD62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CB38421A24BA8E0004AD62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CB38281A24BA8E0004AD62 /* BuddyBuilderMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CB38471A24BA8E0004AD62 /* Build configuration list for PBXNativeTarget "BuddyBuilderMac" */;
+			buildPhases = (
+				81CB38251A24BA8E0004AD62 /* Sources */,
+				81CB38261A24BA8E0004AD62 /* Frameworks */,
+				81CB38271A24BA8E0004AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyBuilderMac;
+			productName = BuddyBuilderMac;
+			productReference = 81CB38291A24BA8E0004AD62 /* BuddyBuilderMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81CB383C1A24BA8E0004AD62 /* BuddyBuilderMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CB384A1A24BA8E0004AD62 /* Build configuration list for PBXNativeTarget "BuddyBuilderMacTests" */;
+			buildPhases = (
+				81CB38391A24BA8E0004AD62 /* Sources */,
+				81CB383A1A24BA8E0004AD62 /* Frameworks */,
+				81CB383B1A24BA8E0004AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CB383F1A24BA8E0004AD62 /* PBXTargetDependency */,
+			);
+			name = BuddyBuilderMacTests;
+			productName = BuddyBuilderMacTests;
+			productReference = 81CB383D1A24BA8E0004AD62 /* BuddyBuilderMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CB38211A24BA8E0004AD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Robocat;
+				TargetAttributes = {
+					81CB38281A24BA8E0004AD62 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					81CB383C1A24BA8E0004AD62 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 81CB38281A24BA8E0004AD62;
+					};
+				};
+			};
+			buildConfigurationList = 81CB38241A24BA8E0004AD62 /* Build configuration list for PBXProject "BuddyBuilderMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CB38201A24BA8E0004AD62;
+			productRefGroup = 81CB382A1A24BA8E0004AD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CB38281A24BA8E0004AD62 /* BuddyBuilderMac */,
+				81CB383C1A24BA8E0004AD62 /* BuddyBuilderMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CB38271A24BA8E0004AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CB38331A24BA8E0004AD62 /* GameScene.sks in Resources */,
+				81CB38351A24BA8E0004AD62 /* Images.xcassets in Resources */,
+				81CB38381A24BA8E0004AD62 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CB383B1A24BA8E0004AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CB38251A24BA8E0004AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CB38311A24BA8E0004AD62 /* GameScene.swift in Sources */,
+				81CB382F1A24BA8E0004AD62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CB38391A24BA8E0004AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CB38441A24BA8E0004AD62 /* BuddyBuilderMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CB383F1A24BA8E0004AD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CB38281A24BA8E0004AD62 /* BuddyBuilderMac */;
+			targetProxy = 81CB383E1A24BA8E0004AD62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81CB38361A24BA8E0004AD62 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CB38371A24BA8E0004AD62 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81CB38451A24BA8E0004AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CB38461A24BA8E0004AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81CB38481A24BA8E0004AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BuddyBuilderMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81CB38491A24BA8E0004AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BuddyBuilderMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81CB384B1A24BA8E0004AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuddyBuilderMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuilderMac.app/Contents/MacOS/BuddyBuilderMac";
+			};
+			name = Debug;
+		};
+		81CB384C1A24BA8E0004AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuddyBuilderMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyBuilderMac.app/Contents/MacOS/BuddyBuilderMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CB38241A24BA8E0004AD62 /* Build configuration list for PBXProject "BuddyBuilderMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CB38451A24BA8E0004AD62 /* Debug */,
+				81CB38461A24BA8E0004AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CB38471A24BA8E0004AD62 /* Build configuration list for PBXNativeTarget "BuddyBuilderMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CB38481A24BA8E0004AD62 /* Debug */,
+				81CB38491A24BA8E0004AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81CB384A1A24BA8E0004AD62 /* Build configuration list for PBXNativeTarget "BuddyBuilderMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CB384B1A24BA8E0004AD62 /* Debug */,
+				81CB384C1A24BA8E0004AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CB38211A24BA8E0004AD62 /* Project object */;
+}
