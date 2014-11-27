@@ -22,6 +22,9 @@ let layout1: [(type: ObstacleType, position: CGPoint, angle: Double)] = [
 class Level: SKSpriteNode {
     var player: Player!
     
+    let maxNumberOfPatients = 10
+    var patients: [Patient] = []
+    
     convenience init(player: Player) {
         var floor: String
         switch player.playerType {
@@ -80,5 +83,33 @@ class Level: SKSpriteNode {
             
             addChild(node)
         }
+    }
+    
+    func spawnPatients() {
+        if patients.count <= maxNumberOfPatients {
+            if (Float(arc4random()) / Float(UINT32_MAX)) < 0.01 {
+                addPatient()
+            }
+        }
+    }
+    
+    func addPatient() {
+        let patient = Patient(level: self)
+        
+        var x = CGFloat(randomRange(400, min: 80))
+        var y = CGFloat(randomRange(700, min: 80))
+        
+        // Check if position collides with obstacle
+        
+        patient.position = CGPoint(x: x, y: y)
+        patient.zRotation = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
+        patient.moveRandom(0.6)
+        
+        addChild(patient)
+        patients.append(patient)
+    }
+    
+    private func randomRange(max: Int, min: Int) -> Float {
+        return floorf(Float(arc4random()) / Float(UINT32_MAX) * (Float(max) - Float(min))) + Float(min)
     }
 }

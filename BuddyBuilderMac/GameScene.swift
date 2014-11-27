@@ -9,7 +9,16 @@
 import SpriteKit
 import AVFoundation
 
+enum GameState {
+    case Playing
+    case Paused
+    case Countdown
+    case GameOver
+}
+
 class GameScene: SKScene {
+    var state: GameState = .Playing
+    
     var player: Player!
     var player2: Player!
     var level1: Level!
@@ -61,6 +70,19 @@ class GameScene: SKScene {
             lastUpdated = currentTime;
         }
         
+        if state == .Playing {
+            spawnPatientsUpdates(timeSinceLast)
+            handleMoveUpdates(timeSinceLast)
+            handleSlashUpdates(timeSinceLast)
+        }
+    }
+    
+    func spawnPatientsUpdates(timeSinceLast: CFTimeInterval) {
+        level1.spawnPatients()
+        level2.spawnPatients()
+    }
+    
+    func handleMoveUpdates(timeSinceLast: CFTimeInterval) {
         if player.shouldMove {
             player.move(player.nextMove, withTimeInterval: timeSinceLast)
             
@@ -71,7 +93,9 @@ class GameScene: SKScene {
             player.removeActionForKey(player.walkActionKey)
             player.texture = player.initialTexture
         }
-        
+    }
+    
+    func handleSlashUpdates(timeSinceLast: CFTimeInterval) {
         if player.shouldSlash {
             player.shouldSlash = false
             player.runAction(player.slashAction, withKey: player.slashActionKey)
